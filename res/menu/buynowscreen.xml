@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="shreetulsimoviese_kartapp.com.Buynowscreen" >
+
+    <item
+        android:id="@+id/action_example"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="My Account"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="My Cart"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Log out"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search"
+        android:title="search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/notifi"
+        android:title="About"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/sep"
+        android:title="Help"
+        app:showAsAction="always"/>
+
+
+</menu>

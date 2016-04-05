@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tulsi Movies Designing Mug"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/mug3" />
+
+            <LinearLayout
+                android:id="@+id/bottom_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="change_image"
+                    android:src="@drawable/mug1" />
+
+                <ImageView
+                    android:id="@+id/i5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="change_image1"
+                    android:src="@drawable/mug2" />
+
+                <ImageView
+                    android:id="@+id/i6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="change_image2"
+                    android:src="@drawable/mug4" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MRP: RS.863"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RS.238"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selling Price"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="In Stock."
+                android:textColor="#00ff00"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ships to 394210" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Standard Delivery by Thu,30th Jan |Rs 40" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Faster Delivery Options not available" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cash on delivery also available" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#60f188"
+                android:text="OFFERS"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#60f188"
+                android:text="Extra 7.5% off* with HDFC Bank Debit and Credit Cards"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#60f188"
+                android:lines="@integer/abc_max_action_buttons"
+                android:text="View Terms $ Conditions"
+                android:textColor="#ffffff"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller Information"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sold by: THEPARI"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivered through ?"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="30 Day Replacement Guarantee"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/t17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Specification"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Similar"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW ALL"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sharebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#c3c3c3"
+            android:gravity="center"
+            android:text="Share" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#c3c3c3"
+            android:gravity="center"
+            android:text="Cart" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffa500"
+            android:gravity="center"
+            android:text="BUY NOW"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

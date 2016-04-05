@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="shreetulsimoviese_cartapp.com.Registration" >
+
+    <TextView
+        android:id="@+id/tulsihead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Tulsi Movies"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_fname"
+        android:layout_alignStart="@+id/reg_fname"
+        android:layout_below="@+id/tulsihead"
+        android:text="First Name"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/reg_fname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_mname"
+        android:layout_alignStart="@+id/reg_mname"
+        android:layout_below="@+id/f_name"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/m_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_fname"
+        android:layout_alignStart="@+id/reg_fname"
+        android:layout_below="@+id/reg_fname"
+        android:text="Middle Name"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/reg_mname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_lname"
+        android:layout_alignStart="@+id/reg_lname"
+        android:layout_below="@+id/m_name"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/l_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_mname"
+        android:layout_alignStart="@+id/reg_mname"
+        android:layout_below="@+id/reg_mname"
+        android:text="Last Name"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/reg_lname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/l_name"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_lname"
+        android:text="Password"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/edpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edpass"
+        android:layout_alignStart="@+id/edpass"
+        android:layout_below="@+id/pass"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/cnpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edpass"
+        android:password="true" 
+        android:layout_alignLeft="@+id/cnpass"
+        android:layout_alignStart="@+id/cnpass"/>
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/phoneno"
+        android:layout_alignLeft="@+id/phoneno"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:text="Create"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cnpass"
+        android:layout_alignStart="@+id/reg_lname"
+        android:layout_below="@+id/cnpass"
+        android:text="Email ID"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reg_lname"
+        android:layout_alignLeft="@+id/email_id"
+        android:layout_alignStart="@+id/email_id"
+        android:layout_below="@+id/email_id"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mobile_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/l_name"
+        android:layout_alignStart="@+id/reg_lname"
+        android:layout_below="@+id/emailid"
+        android:layout_toLeftOf="@+id/tulsihead"
+        android:text="Mobile no"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailid"
+        android:layout_alignLeft="@+id/mobile_no"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mobile_no"
+        android:ems="10"
+        android:inputType="phone" />
+
+</RelativeLayout>
